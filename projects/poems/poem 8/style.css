@@ -1,0 +1,26 @@
+body {
+background-color: ;
+width: 250px;
+height:600px;
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+top: 50%;
+LEFT: 50%;
+
+}
+
+h3 {
+  font-family: monospace;
+
+}
+
+h5{
+  font-family: monospace;
+
+}
+
+p {
+  font-family: monospace;
+  color: #BDF2C2;
+}

@@ -1,0 +1,61 @@
+body {
+background-color: #C9FF22;
+
+}
+
+h3 {
+  width: 265px;
+  border-style: dashed;
+  border-radius: 10px;
+  border-color: pink;
+  border-width: thick;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  color: red;
+  margin-left: 450px;
+
+}
+
+h5{
+  margin-left: 100px;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+align-content: space-around;
+  height: 600px;
+  width: 1200px;
+  text-align: left;
+
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.p1 {
+background-color: red;
+left: 40px;
+width: 300px;
+
+
+}
+
+.p2 {
+background-color: pink;
+width: 300px;
+}
+
+.p3 {
+
+background-color: red;
+width: 300px;
+}

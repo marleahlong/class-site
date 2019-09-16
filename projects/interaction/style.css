@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+  color: black;}
+
+.button {
+position:fixed;
+width: 100px;
+height: 100px;
+background: magenta;
+display:flex;
+justify-content: center;
+align-items: center;
+top:50%;
+transform:translateY(-50%);
+transition: background .5s ease,            height 1s ease;
+}
+
+.button:hover {
+  background: chartreuse;
+  height:900px;
+}
+
+.prev {
+left: 0;
+}
+
+.next {
+right:0;
+}
+
+
+.image {
+display:none;
+position: fixed;
+top: 50%;
+right:50%;
+transform: translate(45%,-50%);
+
+}
+
+.hover-img:hover .image {
+display: block;
+}
