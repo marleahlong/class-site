@@ -1,0 +1,125 @@
+@@font-face {
+src:(fonts/Pilowlava-Regular.otf);
+font-family: pilowlava;
+src:(fonts/savate-italique.otf);
+font-family: savate;
+}
+
+body {
+  background-color: #FFFEE1;
+  font-family: savate;
+  font-size: 10px;
+  text-decoration: none;
+  /* cursor: url('musty.cur'), default; */
+
+}
+
+a {
+  /* background:red; */
+}
+
+img {
+  max-width: 100%;
+  max-height:100%;
+}
+
+
+.handmadeweb {
+  font-family: savate;
+  font-size: 60px;
+  /* background: lime; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: fixed;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  right:0;
+  bottom:0;
+  /* animation:handmadeweb 20s infinite ease; */
+}
+
+.container {
+font-family: savate;
+font-size: 50px;
+opactiy: .5;
+/* background: pink; */
+width: 1000px;
+height: 500px;
+position:fixed;
+display:none;
+justify-content: space-around;
+align-items: center;
+align-content: center;
+/* margin-left: 100px; */
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+
+}
+
+.button {
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  text-decoration: none;
+  font-size: 25px;
+  color:lime;
+  min-width:23%;
+  min-height:30%;
+  max-width:23%;
+  max-height:30%;
+}
+
+.image1 {
+opacity: .6;
+/* border-radius:50%; */
+  /* color:lime; */
+background-image:url(excercises.jpeg);
+background-color: lime;
+background-size: cover;
+justify-content: center;
+align-items: center;
+
+}
+
+.image2 {
+opacity: .6;
+/* color: #FF6C1A; */
+background-image:url(poems.jpeg);
+/* border-radius:50%; */
+background: pink;
+background-size: cover;
+justify-content: center;
+
+}
+
+.image3 {
+opacity: .4;
+/* color: #1754FF; */
+background-image:url(story.png);
+/* border-radius:50%; */
+background-size: cover;
+justify-content: center;
+align-items: center;
+}
+
+.image4 {
+opacity: .6;
+/* color: #F421D0; */
+background-image:url(final.jpeg);
+/* border-radius:50%;  */
+background-size: cover;
+justify-content: center;
+}
+
+.text-hover:hover .container{
+display: flex;
+
+}
+
+/* @keyframes handmadeweb {
+  0% {transform:translatex(-110vw);}
+  100% {transform:translatex(110vw);}
+
+} */

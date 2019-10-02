@@ -1,0 +1,60 @@
+body {
+  background-color: #FFFEE1;
+  font-family: savate;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  margin-left: 75px;
+  margin-top: 0px;
+  /* cursor: url('musty.cur'), default; */
+
+}
+
+h1 {
+  font-family: savate;
+  font-size: 125px;
+  text-decoration: none;
+  color: #C7AEFF;
+  margin-left: 0px;
+  margin-top: 30px;
+  height: 200px;
+  width: 100px;
+  /* animation:move 15s infinite linear; */
+  /* background-color:pink; */
+
+}
+
+a {
+  margin-top: 0;
+  font-family: savate;
+  font-size: 125px;
+  text-decoration: none;
+  color: #C7AEFF;
+  background:#FFBB24;
+  transform:scale(1);
+  /* animation: move .5s; */
+  padding:20px;
+  position: absolute;
+  border-radius: 50%;
+  transition: transform 1s ease;
+}
+
+a:hover {
+  transform:scale(2,3) rotate(360deg);
+}
+
+.texthover: hover {
+height: 500px;
+width: 500px;
+}
+
+.text-hover texthover {
+  /* transform:scale(2,3); */
+  /* animation: move; */
+
+}
+
+@keyframes move {
+  0% {transform:rotate(0deg);}
+  100% {transform:rotate(360deg);}
+}
