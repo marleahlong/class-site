@@ -1,0 +1,84 @@
+@@font-face {
+src:(fonts/oggitaliccopy.otf);
+font-family: oggitalic;
+}
+
+body {
+background-color: black;
+font-family:ogg;
+color:white;
+font-size: 130px;
+margin-left: 50px;
+
+}
+
+
+/* .charms {
+  height: 10000px;
+  width: 7000px;
+
+} */
+.basket {
+  /* background-color: pink; */
+height:500px;
+width:700px;
+margin-left: 125px;
+margin-top: 300px;
+/* background:blue */
+
+}
+
+.charm1{
+margin-left: 3000px;
+margin-top: 6500px;
+position: relative;
+cursor: pointer;
+
+}
+
+.charm2 {
+  margin-left: 5000px;
+  margin-top: 10000px;
+position: relative;
+cursor: pointer;
+}
+
+.charm3{
+  margin-left: 100px;
+  margin-top: 4000px;
+position: relative;
+cursor: pointer;
+}
+.charm5 {
+  margin-left: 10000px;
+  margin-top:0;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.charm4{
+margin-left: 7000px;
+margin-top: 1000px;
+margin-bottom: 7000px;
+position: relative;
+cursor: pointer;
+}
+
+
+
+
+.type {
+font-size: 40px;
+margin-left: 410px;
+margin-top: 280px;
+
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}

@@ -1,0 +1,56 @@
+.bigbox {
+width: 100%;
+height: 100%;
+background: white;
+
+}
+
+.row1 {
+  width: 100%;
+  background: tan;
+  height: 200px;
+  margin: 20px;
+
+}
+
+.row2 {
+width: 100px;
+
+}
+
+.orange {
+width: 50%;
+background: orange;
+height: 500px;
+margin: 20px;
+display: flex;
+align-items: center;
+
+}
+
+.orange-baby {
+background: red;
+width: 270px;
+height: 150px;
+
+
+}
+
+.teal{
+
+
+}
+
+.row3 {
+  width: 100%;
+
+}
+
+.lightgreen {
+height: 100px;
+background: lightgreen;
+margin: 20px;
+display: flex;
+flex-direction: column;
+
+}

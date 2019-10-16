@@ -33,14 +33,15 @@ a {
   background:#FFBB24;
   transform:scale(1);
   /* animation: move .5s; */
-  padding:20px;
+  padding:70px 20px;
   position: absolute;
   border-radius: 50%;
   transition: transform 1s ease;
 }
 
 a:hover {
-  transform:scale(2,3) rotate(360deg);
+  transform:scale(2,3) ;
+  /* rotate(360deg); */
 }
 
 .texthover: hover {

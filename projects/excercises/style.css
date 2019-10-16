@@ -1,0 +1,44 @@
+body {
+  background-color: #FFFEE1;
+  font-family: savate;
+  font-size: 50px;
+  text-decoration: none;
+  color: #C7AEFF;
+  /* margin-top: 0px; */
+  height:100vh;
+  width:100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  /* cursor: url('musty.cur'), default; */
+
+}
+
+a {
+  text-decoration: none;
+  color: #C7AEFF;
+  margin-top: 25%;
+
+}
+
+a:hover {
+color:#FFBB24;
+
+}
+
+.tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: flex-start;
+  align-items: flex-start;
+  /* position: absolute; */
+  height: 100%;
+  width: 100%;
+  /* background: pink; */
+  /* margin-left: 200px;
+  margin-top: 150px; */
+
+}

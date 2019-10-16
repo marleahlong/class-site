@@ -1,0 +1,33 @@
+@@font-face {
+src:(fonts/oggitaliccopy.otf);
+font-family: ogg italic;
+}
+
+body {
+background-color: black;
+font-family:ogg;
+color:white;
+font-size: 140px;
+margin-left: 100px;
+bottom:0;
+padding-right: 50px;
+
+}
+
+a {
+  color:black;
+  text-decoration: none;
+  font-size: 180px;
+  margin-left: 200px;
+  margin-top: 0;
+  /* letter-spacing: 1rem; */
+  /* 0% {transform:rotate(0deg);}
+  100% {transform:rotate(360deg);}
+  transition: transform 1s ease; */
+
+}
+
+a:hover {
+color: white;
+
+}

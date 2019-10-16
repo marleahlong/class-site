@@ -1,0 +1,136 @@
+@@font-face {
+src:(fonts/oggitaliccopy.otf);
+font-family: oggitalic;
+}
+
+body {
+  height: 10000px;
+  width: 7000px;
+background-color: white;
+font-family:ogg;
+color:black;
+font-size: 140px;
+margin-left: 30px;
+margin top: 150px;
+
+}
+
+/* .charms {
+  height: 10000px;
+  width: 7000px;
+
+} */
+.basket {
+  /* background-color: pink; */
+height:500px;
+width:700px;
+margin-left: 125px;
+margin-top: 300px;
+/* background:blue */
+
+}
+
+.charm1{
+margin-left: 5000px;
+margin-top: 3500px;
+position: relative;
+cursor: pointer;
+
+}
+
+.charm2 {
+  margin-left: 5000px;
+  margin-top: 10000px;
+position: relative;
+cursor: pointer;
+}
+
+.charm3{
+  margin-left: 100px;
+  margin-top: 10000px;
+position: relative;
+cursor: pointer;
+}
+
+.charm4{
+  margin-left: 3000px;
+  margin-top: 2000px;
+position: relative;
+cursor: pointer;
+}
+
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+
+
+
+
+.type {
+font-size: 40px;
+margin-left: 410px;
+margin-top: 280px;
+
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  background color: pink;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
